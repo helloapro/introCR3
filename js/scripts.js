@@ -3,7 +3,7 @@ var pingpong = function(x) {
   var countList = document.getElementById('countList');
   var countElement;
 
-  for (var i = 1; i <= x; i++) {
+  for (var i = 0; i <= x; i++) {
     count.push(i);
     if (i % 3 === 0) {
       //var ping = count.splice (i,1,"ping"); -->(another method)
@@ -17,18 +17,9 @@ var pingpong = function(x) {
     }
 
     $("ul#countList").append("<li><span class='count'>" + count[i] + "</span></li>")
-    /*var frag = document.createDocumentFragment();
-    for (var j = count.length; j--;) {
-      var li = document.createElement("li").firstChild;
-      li.appendChild(document.createTextNode(count[j++]));
-      frag.appendChild(countElement);
-    } */
-
 
   }
-
-  alert(count);
-//  countList.appendChild(frag);
+  //alert(count);
 
 }
 
