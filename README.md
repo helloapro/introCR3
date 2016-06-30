@@ -24,6 +24,9 @@ Input a number and watch the site go to work!
   * Example Input: 15
   * Example Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong
 
+## Known Bugs
+Had to have the counter count from zero rather than one. Counting from one spit out "undefined" for numbers 1 and 2 for some reason.
+
 ## Author
 April Peng
 
